@@ -57,10 +57,10 @@ pdf0 = mpPDF(1.0, q=x.shape[0] / x.shape[1], pts=1000)
 pdf1 = fitKDE(np.diag(eVal0), bWidth=0.01)
 
 
-fig = plt.figure(figsize=(16, 8))
-ax1 = fig.add_subplot(111)
+#fig = plt.figure(figsize=(16, 8))
+#ax1 = fig.add_subplot(111)
 
-pdf0.plot(ax=ax1)
-pdf1.plot(ax=ax1)
+#pdf0.plot(ax=ax1)
+#pdf1.plot(ax=ax1)
 
-plt.show(block=True)
+#plt.show(block=True)
