@@ -8,7 +8,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.neighbors.kde import KernelDensity
 
-
 def mpPDF(var, q, pts):
     """
     This implements Marcenko-Pasteur probability density function, the parameter q= T/N
