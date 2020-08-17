@@ -71,6 +71,9 @@ prediction = prediction.reshape((-1))
 import plotly.graph_objects as go
 
 
+
+
+
 trace1 = go.Scatter(x=date_train, y=close_train, mode="lines", name="Data")
 trace2 = go.Scatter(x=date_test, y=prediction, mode="lines", name="Prediction")
 trace3 = go.Scatter(x=date_test, y=close_test, mode="lines", name="Ground Truth")
